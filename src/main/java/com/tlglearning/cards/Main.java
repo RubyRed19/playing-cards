@@ -20,7 +20,7 @@ public class Main {
     System.out.println(deck);
   }
 }
-
+//we can only have 1 public top-level class. so we removed the public from the signature
  class ColorFirst implements Comparator<Card> {
 
   @Override
